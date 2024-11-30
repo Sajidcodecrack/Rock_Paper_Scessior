@@ -22,9 +22,34 @@ h1 {
 img {
     height: 160px;
     width: 160px;
-    object-fit:contain;
+    object-fit: contain;
     border-radius: 50%;
 }
-.choices{
+
+.choices {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin gap: 5rem;
+
+
+}
+.choice:hover {
+    opacity: .5;
+    background-color:darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user_score,#computer_score{
+    font-size: 4rem;
 }
