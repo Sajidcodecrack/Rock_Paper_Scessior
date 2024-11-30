@@ -35,14 +35,16 @@ img {
 
 
 }
+
 .choice:hover {
     opacity: .5;
-    background-color:darkmagenta;
+    background-color: darkmagenta;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.score_board{
+
+.score_board {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +52,21 @@ img {
     margin-top: 3rem;
     gap: 5rem;
 }
-#user_score,#computer_score{
+
+#user_score,
+#computer_score {
     font-size: 4rem;
+}
+
+.message_container {
+    margin-top: 5rem;
+}
+
+#message {
+    background-color: #081b31;
+    color: aliceblue;
+    font-size: 3rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1.6rem;
 }
